@@ -61,6 +61,7 @@ function styles() {
 function build() {
   return src([
     'app/css/min.style.css',
+    'app/css/reset.css',
     'app/fonts/**/*',
     'app/js/main.min.js',
     'app/*.html'

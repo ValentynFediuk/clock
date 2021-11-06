@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+	line-height: 140%;
+  font-weight: 400;
+  font-size: 18px;
+  color: #1a1a1a;
+}
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+button {
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 400;
+  border: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 130%;
+}
+
+
+
+
